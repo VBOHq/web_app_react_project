@@ -1,16 +1,21 @@
 {
-  "name": "webapp",
+  "name": "webapp_react_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
+    "react-redux": "^8.1.2",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
     "react-toastify": "^9.1.3",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
@@ -42,8 +47,9 @@
   "devDependencies": {
     "axios": "^1.4.0"
   },
-  "bugs": {
-    "url": "https://github.com/VBOHq/WebApp-project/issues"
-  },
-  "homepage": "https://github.com/VBOHq/WebApp-project#readme"
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "vbohq_web_dev_team",
+  "license": "ISC",
+  "keywords": []
 }
