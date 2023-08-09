@@ -9,4 +9,7 @@
 :root {
   --fullWidth: 100%;
   --innerWidth: 80%;
+  --primaryColor: #4fe331;
+  --secondaryColor: #010f20;
+  --bgColor: #f5eefc;
 }
