@@ -15,7 +15,7 @@ export const Container = styled(DisplayFlex)`
   background-color: var(--bgColor);
   .ct_wrapper {
     width: var(--innerWidth);
-    background-color: #fff;
+    background-color: var(--bgColor);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +166,7 @@ export const ButtonWrapper = styled.div`
 
     &:hover {
         background-color: var(--secondaryColor);
-        color: #fff;
+        color: var(--bgColor);
     }
   }
 `;
