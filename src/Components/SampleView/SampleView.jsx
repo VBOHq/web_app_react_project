@@ -6,6 +6,7 @@ import {
 } from "./Styles/SampleViewStyles";
 import { useDispatch, useSelector } from "react-redux";
 import { setFormData } from "../../Context/Reducer/sampleViewReducers";
+import ChildView from "./ChildView";
 
 const SampleViewForm = () => {
   // form fields value holders
@@ -70,6 +71,7 @@ const SampleViewForm = () => {
           </ButtonWrapper>
         </FormWrapper>
       </div>
+      <ChildView />
     </Container>
   );
 };

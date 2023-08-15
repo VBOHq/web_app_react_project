@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { useDispatch } from "react-redux";
 const sampleinitialState = {
   text: "i am a sample text",
 };
