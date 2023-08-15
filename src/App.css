@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-size: 1rem;
   box-sizing: border-box;
   text-rendering: optimizeSpeed;
   image-rendering: optimizeQuality;
@@ -8,8 +9,10 @@
 
 :root {
   --fullWidth: 100%;
-  --innerWidth: 80%;
-  --primaryColor: #4fe331;
-  --secondaryColor: #010f20;
-  --bgColor: #f5eefc;
+  --innerWidth: 93%;
+  --primaryColor: #ff712b;
+  --secondaryColor: #0072ef;
+  --cardColor: #fcfafd;
+  --bgColor: #f6f4f7;
+  --uniqueColor: #e74c3c;
 }
