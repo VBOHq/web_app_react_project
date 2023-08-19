@@ -2,6 +2,7 @@ import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 const SampleView = React.lazy(() => import("./View/SampleView/SampleView.js"));
+const SignupView = React.lazy(() => import("./View/SignupView/SignupView.js"))
 const Loading = () => <p>Loading ...</p>;
 
 const Text = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path={"/"} element={<Text />} />
           <Route path={"/sample"} element={<SampleView />} />
+          <Route path={"/signup"} element={<SignupView />} />
         </Routes>
       </Router>
     </React.Suspense>
