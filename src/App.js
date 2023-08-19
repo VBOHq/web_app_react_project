@@ -25,7 +25,7 @@ const App = () => {
           <Route path={"/"} element={<Text />} />
           <Route path={"/sample"} element={<SampleView />} />
           <Route path={"/signup"} element={<SignupView />} />
-          <Route path={"/login"} element={<loginView />} />
+          <Route path={"/login"} element={<LoginView />} />
         </Routes>
       </Router>
     </React.Suspense>
