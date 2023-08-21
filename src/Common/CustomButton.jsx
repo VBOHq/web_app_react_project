@@ -1,12 +1,21 @@
 import React from "react";
 import { styled } from "styled-components";
 
-const CustomButton = ({ width, height, backgroundColor, color, text }) => {
+const CustomButton = ({
+  width,
+  height,
+  backgroundColor,
+  color,
+  text,
+  otherStyles,
+  otherProps,
+}) => {
   return (
     <Button
       style={{
         width: width ?? null,
         height: height ?? null,
+
         backgroundColor: backgroundColor
           ? backgroundColor
           : backgroundColor === "useDefault"
@@ -17,7 +26,9 @@ const CustomButton = ({ width, height, backgroundColor, color, text }) => {
           : color === "useDefault"
           ? "var(--cardColor)"
           : null,
+        ...otherStyles,
       }}
+      {...otherProps}
     >
       {text}
     </Button>
