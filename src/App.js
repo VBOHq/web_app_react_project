@@ -2,8 +2,8 @@ import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 
-const ForgotPasswordDialog = React.lazy(() =>
-  import("./Components/ForgotPassword.Component/ForgotPasswordDialog")
+const ForgotPasswordView = React.lazy(() =>
+  import("./View/ForgotPasswordView/ForgotPasswordView")
 );
 const SampleView = React.lazy(() => import("./View/SampleView/SampleView.js"));
 const LandingView = React.lazy(() =>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path={"/"} element={<LandingView />} />
           <Route path={"/home"} element={<LandingView />} />
           <Route path={"/sample"} element={<SampleView />} />
-          <Route path={"/forgot_password"} element={<ForgotPasswordDialog />} />
+          <Route path={"/forgot_password"} element={<ForgotPasswordView />} />
         </Routes>
       </Router>
     </React.Suspense>

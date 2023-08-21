@@ -9,7 +9,7 @@ import {
 import CustomButton from "../../Common/CustomButton";
 import { Link } from "react-router-dom";
 
-const ForgotPasswordDialog = () => {
+const ForgotPassword = () => {
   const emailRef = useRef("");
 
   return (
@@ -104,4 +104,4 @@ const ForgotPasswordDialog = () => {
   );
 };
 
-export default ForgotPasswordDialog;
+export default ForgotPassword;
