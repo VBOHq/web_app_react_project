@@ -24,7 +24,7 @@ export const Container = styled(DisplayFlex)`
       flex-direction: row; 
       border-radius: 8px;
       max-width: 1200px;
-      margin: 40px auto;
+      margin: 0 auto;
       padding: 40px 0;
     }
     
@@ -49,7 +49,20 @@ export const Container = styled(DisplayFlex)`
             margin-bottom: 1rem;
 
             .logo-wrapper {
-                text-align: center;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 8px;
+              margin-bottom: 6px;
+              .hd_wp_iw_icon {
+                font-size: 2rem;
+                color: var(--primaryColor);
+              }
+        
+              small {
+                font-size: 1.2rem;
+                color: var(--primaryColor);
+              }
             }
             h2 {
                 text-align: center;

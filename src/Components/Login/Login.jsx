@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import { Container, FormWrapper, ButtonWrapper } from "./Styles/LoginStyles";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRepublican } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -20,7 +22,8 @@ const Login = () => {
           <div className="ct_form_wrapper">
             <div className="ct_wp_header">
               <div className="logo-wrapper">
-                <img src="/assets/logo.svg" alt="" />
+                <FontAwesomeIcon icon={faRepublican} className="hd_wp_iw_icon" />
+                <small>icon text</small>
               </div>
               <h2>Log into your account</h2>
             </div>
