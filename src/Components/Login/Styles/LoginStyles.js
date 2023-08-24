@@ -19,13 +19,13 @@ export const Container = styled(DisplayFlex)`
     flex-direction: column;
     justify-content: center;
     padding: 20px 0;
-    margin: 32px 0;
+    margin: 0;
     @media (min-width: 768px) { 
       flex-direction: row; 
       border-radius: 8px;
       max-width: 1200px;
       margin: 0 auto;
-      padding: 40px 0;
+      padding: 28px 0;
     }
     
 
@@ -42,8 +42,11 @@ export const Container = styled(DisplayFlex)`
         flex-direction: column;
         background-color: var(--bgColor);
         box-shadow: 0 12px 34px rgba(65,62,101,.103);
-        padding: 48px;
+        padding: 48px 16px;
         border-radius: 4px;
+        @media (min-width: 768px) { 
+          padding: 48px;
+        }
 
         .ct_wp_header {
             margin-bottom: 1rem;
@@ -66,7 +69,10 @@ export const Container = styled(DisplayFlex)`
             }
             h2 {
                 text-align: center;
-                font-size: 28px
+                font-size: 20px;
+                @media (min-width: 768px) { 
+                  font-size: 28px;
+                }
             }
         }
 
