@@ -8,8 +8,10 @@ const sampleSlice = createSlice({
   initialState: sampleinitialState,
   reducers: {
     sayHello: (state, action) => {
+      const { payload } = action;
       console.log("state :>> ", state.text);
       console.log("action.payload :>> ", action);
+      return { ...state, text: payload };
     },
     displayText: (state, actions) => {
       // console.log("state :>> ", state.text);

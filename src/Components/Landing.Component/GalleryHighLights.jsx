@@ -19,6 +19,7 @@ const GalleryHighLights = () => {
                 height={200}
               />
             ))}
+            
           </figure>
         </div>
         <aside className="sec_wp_content">
