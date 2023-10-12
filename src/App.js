@@ -11,6 +11,9 @@ const ForgotPasswordView = React.lazy(() =>
 const LandingView = React.lazy(() =>
   import("./View/LandingView/LandingView.js")
 );
+const DashboardView = React.lazy(() =>
+  import("./View/DashboardView/DashboardView.js")
+);
 
 const Loading = () => <p>Loading ...</p>;
 
@@ -25,6 +28,7 @@ const App = () => {
           <Route path={"/forgot_password"} element={<ForgotPasswordView />} />
           <Route path={"/signup"} element={<SignupView />} />
           <Route path={"/login"} element={<LoginView />} />
+          <Route path={"/dashboard"} element={<DashboardView />} />
         </Routes>
       </Router>
     </React.Suspense>
