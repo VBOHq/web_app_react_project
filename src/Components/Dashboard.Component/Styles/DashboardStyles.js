@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ProjectWrapper = styled.section`
 	display: flex;
+	flex: 1 1 32%;
+	max-width: 32%;
 	flex-direction: column;
 	margin: 5px;
 	padding: 5px 20px;

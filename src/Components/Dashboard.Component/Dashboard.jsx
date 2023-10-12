@@ -19,7 +19,8 @@ const projects = Array(7).fill({
 const Dashboard = () => {
 	return (
 		<div style={{ margin: '3rem' }}>
-			<div style={{ marginBottom: '3rem' }}>
+			<div style={{ marginBottom: '4rem', position: 'relative' }}>
+				<img style={{ position: 'absolute', top: 0, right: 0, marginTop: '-3rem', height: '170%' }} src="https://fakeimg.pl/300x150/ffffff/000000?text=Placeholder&font=noto" alt="Placeholder" />
 				<h1 style={{ fontSize: '2em' }}>Placeholder Title</h1>
 				<span>{Array(3).fill('placeholder text').join(' ')}</span><br /><br />
 				<a href="https://google.com" target="_blank" rel="noreferrer">
@@ -33,6 +34,7 @@ const Dashboard = () => {
 				<a href="https://google.com" target="_blank" rel="noreferrer">
 					<CustomButton otherStyles={{ padding: 15, paddingLeft: 10, paddingRight: 10, minWidth: 'fit-content' }} width="15%" text="Button 2" backgroundColor="var(--secondaryColor)" />
 				</a>
+
 			</div>
 
 			<Wrapper>
